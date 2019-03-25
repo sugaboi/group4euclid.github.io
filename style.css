@@ -1,0 +1,195 @@
+html
+	{
+		overflow-y: auto;
+		overflow-x: hidden;
+	}
+body
+	{
+		background-color: white ;
+		color: #333333;
+		padding: 0px;
+		margin: 0px;
+		font-size: 18px;
+		font-family: Century Gothic;
+	}
+
+#container_nav
+	{
+		width: 100%;
+		background: black;
+	}
+#nav
+	{
+		width: 800px;
+		height: 102px;
+		text-align: right;
+	}
+#nav ul 
+	{
+		list-style-type: none;
+		padding: 0px;
+		margin: 0px auto;
+		position: relative;
+	}
+#nav ul li 
+	{
+		display: inline-block;
+	}
+#nav ul li:hover
+	{
+		background-color: #333;
+		border-left: 1px solid white;
+		border-right: 1px solid white;
+	}
+#nav ul li a, visited
+	{
+		color: #ccc;
+		display: block;
+		padding: 40px;
+		text-decoration: none;
+	}
+#nav ul li a:hover
+	{
+		color: #ccc;
+		text-decoration: none;
+	}
+#nav ul li:hover ul
+	{
+		display: block;
+	}
+#nav ul ul 
+	{
+		display: none;
+		position: absolute;
+		background-color: #333;
+	}
+#nav ul ul li
+	{
+		display: block;
+	}
+#nav ul ul li a,visited
+	{
+		color: #ccc;
+	}
+#nav ul ul li a:hover
+	{
+		color: #099;
+	}
+#home-banner
+{
+	width: 100%;
+	height: 568px;
+	background-image: url(bannerimg.gif);
+	background-color: black;
+}
+#home-banner1
+{
+	width: 100%;
+	height: 568px;
+	background-image: url(bg1.gif);
+	background-color: black;
+}
+#home-banner h1
+{
+	font-family: 'Old Standard TT',serif;
+	font-weight: bold;
+	font-style: normal;
+	text-align: center;
+	color: Brown;
+	font-size: 4.25rem;
+}
+#home-banner1 h1
+{
+	font-family: 'Old Standard TT',serif;
+	font-weight: bold;
+	font-style: normal;
+	text-align: center;
+	color: Brown;
+	font-size: 4.25rem;
+}
+#home-content
+{
+	width: 100%;
+	background-image: url(bgintro.gif);
+	background-color: black;
+}
+#home-content1
+{
+	width: 100%;
+	background-image: url(bgintro.gif);
+	background-color: #696969;
+}
+#intro
+{
+	width: 980px;
+	padding: 4rem 2rem;
+	margin-right: 0px;
+}
+#intro p
+{
+	text-align: justify;
+	color: white;
+	font-size: 1.48rem;
+}
+#intro h1
+{
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	color: white;
+    background-size: auto auto;
+	background-size: 190px 24px;
+	font-family: 'Old Standard TT';
+	text-align: center;
+	margin:0px;
+	font-size: 5rem;
+}
+
+#suites
+{
+	width: 100%;
+	height: 1000px;
+	background-image: url(bgintro.gif);
+	padding: 40px;
+}
+#suites img
+{
+	float: left;
+	width: 736px;
+	height: 800px;
+}
+#text
+{
+	width: 45%;
+	height: 421.067px;
+	float: right;
+	padding: 40px;
+}
+#text p,h3
+{
+	text-align: justify;
+}
+#text p
+{
+	font-size: 1.2rem;
+	color: white;
+	padding: 30px;
+	line-height: 25px;
+}
+#text h3
+{
+	letter-spacing: .325rem;
+	font-family: 'Old Standard TT';
+	color: white;
+	text-align: center;
+	font-size: 25px;
+}
+#text a 
+{
+	text-decoration: none;
+	font-size: 20px;
+	padding:10px;
+	color: white;
+	background-color: black;
+	border: 1px solid white;
+	border-radius: 5px;
+}
